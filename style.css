@@ -55,3 +55,7 @@ body{
 .flash{
   background-color: white;
 }
+.userFlash{
+  background-color: white;
+  opacity: 0.5;
+}
