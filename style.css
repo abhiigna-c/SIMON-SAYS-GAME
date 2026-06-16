@@ -1,6 +1,7 @@
 body{
   text-align: center;
   margin-top: 3%;
+  background-color: black;
 }
 .btn-container {
   position: relative;
@@ -16,7 +17,7 @@ body{
 .active{
   width: 200px;
   height: 200px;
-  background-color: white;
+  background-color: black;
   border-radius: 100%;
   position: absolute;
   top: 50%;
@@ -29,6 +30,10 @@ body{
   width: 200px;
   margin: 0;
   border: none;
+}
+.btn:hover{
+  cursor: pointer;
+  box-shadow: inset 0px 0px 7px 3px black;
 }
 .btn-red{
   background-color: red;
@@ -45,4 +50,8 @@ body{
 .btn-yellow{
   background-color: yellow;
   border-bottom-right-radius: 100%;
+}
+
+.flash{
+  background-color: white;
 }
